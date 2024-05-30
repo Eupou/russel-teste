@@ -1,5 +1,10 @@
+import Hero from '@/components/Hero';
+
 export default function Home() {
+
   return (
-    <h1>setting the base css</h1>
+    <main>
+      <Hero />
+    </main>
   );
 }

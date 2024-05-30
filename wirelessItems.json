@@ -1,0 +1,26 @@
+[
+    {
+        "img": "/images/mouse1.png",
+        "description": "Mouse Gamer Sem fio Logitech G Pro X Superlight 2 com Lightspeed, 32000 DPI, Sensor Hero 2, com Ba...",
+        "oldPrice": "1.529,48",
+        "newPrice": "814,90"
+    },
+    {
+        "img": "/images/mouse2.png",
+        "description": "Mouse Gamer Sem fio Logitech G Pro X Superlight 2 com Lightspeed, 32000 DPI, Sensor Hero 2, com Ba...",
+        "oldPrice": "705,87",
+        "newPrice": "499,99"
+    },
+    {
+        "img": "/images/headphone.png",
+        "description": "Headset Gamer Sem Fio Logitech G530 LIGHTSPEED RGB LIGTHSYNC, Ajuste Peso, 11 Botões...",
+        "oldPrice": "1.999,99",
+        "newPrice": "1.499,99"
+    },
+    {
+        "img": "/images/caixadesom.png",
+        "description": "Caixa de som Logitech G560 com RGB LIGHTSYNC, Sistema 2.1 e Conexão Bluetooth, USB ou 3,5mm",
+        "oldPrice": "1.777,77",
+        "newPrice": "999,90"
+    }
+]
