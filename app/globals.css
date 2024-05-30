@@ -6,10 +6,6 @@
 :root {
   --color-rgb: 26, 26, 26;
   --background-end-rgb: 255, 255, 255;
-  --bg-btn-purple: 84, 56, 255;
-  --bg-btn-blue: 0, 181, 234;
-  --color-purple: 84, 56, 255;
-  --color-blue: 0, 181, 234;
 }
 
 body {
@@ -23,20 +19,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
-
-.bg-custom-purple {
-  background-color: rgb(var(--bg-btn-purple));
-}
-
-.bg-custom-blue {
-  background-color: rgb(var(--bg-btn-blue));
-}
-
-.color-purple {
-  color: rgb(var(--bg-btn-purple));
-}
-
-.color-blue {
-  color: rgb(var(--bg-btn-blue));
 }
