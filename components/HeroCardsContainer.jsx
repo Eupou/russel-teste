@@ -6,7 +6,7 @@ export default function HeroCardsContainer() {
         <div className="flex justify-evenly w-[100%] mt-10 pb-5">
             {wirelessItems.map(item => {
                 return (
-                    <Card.Root className="bg-gradient-to-b from-default-black from-22% to-default-blue/[0.15] to-90%">
+                    <Card.Root className="bg-gradient-to-b from-default-black from-22% to-default-blue/[0.15] to-90% hover:to-default-blue/[0.3] transition">
                         <Card.Image img={item.img} />
                         <div className="w-[85%] mt-3">
                             <Card.Logo />
@@ -14,7 +14,7 @@ export default function HeroCardsContainer() {
                             <Card.OldPrice oldPrice={item.oldPrice} />
                             <Card.NewPrice newPrice={item.newPrice} />
                         </div>
-                        <Card.Button />
+                        <Card.Button className="hover:bg-default-hover-blue transition" />
                     </Card.Root>
                 )
             })}
