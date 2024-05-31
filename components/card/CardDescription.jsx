@@ -1,6 +1,8 @@
-export default function CardDescription({ description }) {
+import { twMerge } from "tailwind-merge"
+
+export default function CardDescription({ description, className }) {
     return (
-        <div className="mt-2 text-sm font-bold">
+        <div className={twMerge("mt-2 text-sm font-bold", className)}>
             {description}
         </div>
     )

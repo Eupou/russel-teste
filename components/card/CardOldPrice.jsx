@@ -1,5 +1,7 @@
-export default function CardOldPrice({ oldPrice }) {
+import { twMerge } from "tailwind-merge"
+
+export default function CardOldPrice({ oldPrice, className }) {
     return (
-        <div className="mt-3 line-through text-slate-200 ">R$ {oldPrice}</div>
+        <div className={twMerge("mt-3 line-through text-slate-200", className)}>R$ {oldPrice}</div>
     )
 }

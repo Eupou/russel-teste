@@ -5,6 +5,7 @@ import CardImage from "./CardImage"
 import CardLogo from "./CardLogo"
 import CardNewPrice from "./CardNewPrice"
 import CardOldPrice from "./CardOldPrice"
+import CardDescount from "./CardDescount";
 
 export const Card = {
     Root: CardRoot,
@@ -13,5 +14,6 @@ export const Card = {
     Image: CardImage,
     Logo: CardLogo,
     NewPrice: CardNewPrice,
-    OldPrice: CardOldPrice
+    OldPrice: CardOldPrice,
+    Descount: CardDescount
 }
