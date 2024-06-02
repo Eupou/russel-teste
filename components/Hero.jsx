@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import HeroCardsContainer from './HeroCardsContainer'
-import banner from "../public/images/banner.png"
+import banner from "../public/images/smallBanner.jpeg"
 
 export default function Hero() {
     return (
