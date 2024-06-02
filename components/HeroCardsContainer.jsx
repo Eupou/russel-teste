@@ -1,12 +1,8 @@
 "use client"
 import wirelessItems from "../wirelessItems"
 import { Card } from "./card";
-import { useEffect } from "react";
 
 export default function HeroCardsContainer() {
-    useEffect(() => {
-        console.log(window.innerWidth)
-    },)
 
     const windowWidth = window.innerWidth
 
