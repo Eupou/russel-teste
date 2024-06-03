@@ -1,6 +1,6 @@
 "use client"
 import wirelessItems from "../wirelessItems"
-import { Card } from "./card";
+import { Card } from "./Card";
 
 export default function HeroCardsContainer() {
 

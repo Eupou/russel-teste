@@ -1,7 +1,7 @@
 "use client"
 
 import products from "../products.json"
-import { Card } from "./card"
+import { Card } from "./Card"
 
 export default function Products() {
     const windowWidth = window.innerWidth
