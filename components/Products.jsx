@@ -2,9 +2,15 @@
 
 import products from "../products.json"
 import { Card } from "./Card/Index"
+import { useState, useEffect } from "react"
 
 export default function Products() {
-    const windowWidth = window.innerWidth
+    const [clientWidth, setClientWidth] = useState(700)
+
+    useEffect(() => {
+        setClientWidth(window.innerWidth)
+    })
+
     return (
         <section className="pt-20 bg-[#fafafa] " >
             <div className="flex items-center mb-5">
@@ -17,7 +23,7 @@ export default function Products() {
                     return (<Card.Root key={item.id} specialBg="" className="shadow-[0_3px_3px_1px_rgba(1,1,1,0.3)] md:shadow-none bg-white w-[42%] sm:w-52 pr-3 pl-3 hover:bg-default-hover-gray transition">
                         <Card.Image className="w-44" img={item.img} />
                         <div className="w-[100%] mt-3">
-                            {windowWidth < 700 ?
+                            {clientWidth < 700 ?
 
                                 <Card.Description className="text-black leading-tight" description={shortDescription} /> :
                                 <Card.Description className="text-black leading-tight" description={item.description} />

@@ -1,10 +1,14 @@
 "use client"
+import { useEffect, useState } from "react";
 import wirelessItems from "../wirelessItems"
 import { Card } from "./Card/Index";
 
 export default function HeroCardsContainer() {
+    const [clientWidth, setClientWidth] = useState(700)
 
-    const windowWidth = window.innerWidth
+    useEffect(() => {
+        setClientWidth(window.innerWidth)
+    })
 
     return (
         <div className="flex flex-wrap justify-evenly w-[100%] mt-10 pb-5">
@@ -15,7 +19,7 @@ export default function HeroCardsContainer() {
                         <Card.Image className="w-[85%]" img={item.img} />
                         <div className="w-[85%] mt-3">
                             <Card.Logo />
-                            {windowWidth < 700 ?
+                            {clientWidth < 700 ?
                                 <Card.Description description={shortDescription} /> :
                                 <Card.Description description={item.description} />
                             }
