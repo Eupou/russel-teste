@@ -22,7 +22,7 @@ export default function HeroCardsContainer() {
                             <Card.OldPrice oldPrice={item.oldPrice} />
                             <Card.NewPrice className="text-2xl  sm:text-4xl lg:text-3xl" newPrice={item.newPrice} />
                         </div>
-                        <Card.Button className="hover:bg-default-hover-blue transition" />
+                        <Card.Button text="comprar" className="hover:bg-default-hover-blue transition" />
                     </Card.Root>
                 )
             })}

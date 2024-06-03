@@ -27,7 +27,7 @@ export default function Products() {
                             <Card.NewPrice className="text-black text-base leading-tight" newPrice={item.newPrice} />
                             <Card.Descount className="text-default-purple text-xs font-light mt-0 " text={item.descount} />
                         </div>
-                        <Card.Button className="bg-default-purple hover:bg-default-hover-purple transition text-white w-[100%] text-base font-light mt-5" />
+                        <Card.Button text="comprar" className="bg-default-purple hover:bg-default-hover-purple transition text-white w-[100%] text-base font-light mt-5" />
                     </Card.Root>
                     )
                 })}
