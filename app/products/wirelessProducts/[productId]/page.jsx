@@ -1,13 +1,13 @@
 "use client"
 import { useEffect, useState } from "react"
-import products from "../../../products.json"
-import HocProducts from "../HocProducts"
+import wirelessProducts from "@/wirelessItems.json"
+import HocProducts from "../../HocProducts"
 
 export default function ProductDetailts({ params }) {
     const [pageDetails, setPageDetails] = useState("")
 
     useEffect(() => {
-        products.map(item => {
+        wirelessProducts.map(item => {
             if (params.productId == item.id) {
                 setPageDetails(item)
             }
