@@ -1,5 +1,5 @@
 "use client"
-import { Card } from "@/components/Card"
+import { Card } from "@/components/Card/Index"
 
 export default function HocProducts({ pageDetails }) {
     return (
