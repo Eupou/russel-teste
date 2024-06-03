@@ -11,7 +11,7 @@ export default function HeroCardsContainer() {
             {wirelessItems.map(item => {
                 const shortDescription = item.description.slice(0, 34).concat("...")
                 return (
-                    <Card.Root className="w-[42%] lg:w-[22%] bg-gradient-to-b from-default-black from-22% to-default-blue/[0.15] to-90% hover:to-default-blue/[0.3] transition">
+                    <Card.Root key={item.id} className="w-[42%] lg:w-[22%] bg-gradient-to-b from-default-black from-22% to-default-blue/[0.15] to-90% hover:to-default-blue/[0.3] transition">
                         <Card.Image className="w-[85%]" img={item.img} />
                         <div className="w-[85%] mt-3">
                             <Card.Logo />

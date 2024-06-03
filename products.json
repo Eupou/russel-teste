@@ -1,5 +1,6 @@
 [
     {
+        "id": "0",
         "img": "/images/placadevideo3.png",
         "description": "Placa de Vídeo RX 6600 CLD AsRock AMD Radeon, 8GB, GDDR6",
         "oldPrice": "2.262,47",
@@ -7,6 +8,7 @@
         "descount": "com 20% de desconto no PIX"
     },
     {
+        "id": "1",
         "img": "/images/placadevideo5.png",
         "description": "Placa de Vídeo RX 6750XT Gaming XFX Graphics Card AMD Radeon, 12GB...",
         "oldPrice": "4.299,29",
@@ -14,6 +16,7 @@
         "descount": "com 20% de desconto no PIX"
     },
     {
+        "id": "2",
         "img": "/images/placadevideo4.png",
         "description": "Placa de Vídeo RTX 4060 AERO OC Gigabyte NVIDIA GeForce, 8GB GDDR¨, RG...",
         "oldPrice": "3.599,99",
@@ -21,6 +24,7 @@
         "descount": "com 20% de desconto no PIX"
     },
     {
+        "id": "3",
         "img": "/images/placadevideo2.png",
         "description": "Placa de Vídeo GTX 1650 D6 Ventus XS OCV3 MSI NVIDIA GeForce, 4GB GD...",
         "oldPrice": "947,36",
@@ -28,6 +32,7 @@
         "descount": "com 20% de desconto no PIX"
     },
     {
+        "id": "4",
         "img": "/images/placadevideo1.png",
         "description": "Placa de Vídeo RX 6600 EAGLE AMD, 8GB GDDR6, Preto",
         "oldPrice": "2.477,94",
