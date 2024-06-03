@@ -4,8 +4,8 @@ import { Card } from "@/components/card"
 export default function HocProducts({ pageDetails }) {
     return (
         <>
-            <section>
-                <Card.Root className="mt-14 sm:flex-row justify-center w-[95%] m-auto sm:w-[100%]">
+            <section className="mt-16">
+                <Card.Root className="sm:flex-row justify-center w-[95%] m-auto sm:w-[100%]">
                     <Card.Image unoptimized={true} className="m-0 sm:w-[35%]" img={pageDetails.img} />
                     <div className="sm:w-[40%] sm:ml-10">
                         <Card.Description className="text-2xl md:text-3xl text-default-black" description={pageDetails.description} />
